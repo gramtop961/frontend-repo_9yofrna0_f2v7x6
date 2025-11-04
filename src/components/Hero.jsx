@@ -6,12 +6,11 @@ export default function Hero() {
     <section className="relative min-h-[80vh] w-full overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white">
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/hGDm7Foxug7C6E8s/scene.splinecode"
+          scene="https://prod.spline.design/VJLoxp84lCdVfdZu/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
 
-      {/* Soft gradient overlays that don't block interaction */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-slate-950/60 via-transparent to-slate-950/80" />
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-slate-950 to-transparent" />
 
